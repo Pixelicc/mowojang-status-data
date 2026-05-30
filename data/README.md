@@ -1,19 +1,13 @@
-The CSV files in this directory use a two-section format to optimize storage.
+The CSV files in this directory contain hourly endpoint metrics.
+The endpoint key is referenced by index values stored in `data/index.csv`.
 
-## 1. Endpoint Index
+## Hourly Data
 
-Maps unique integer IDs to endpoint keys.
-
-- **Header**: `index,name`
-- **Columns**: `index`, `name` (Gatus Endpoint Key)
-
-## 2. Hourly Data
-
-Contains performance metrics referencing the indices above.
+Contains performance metrics for each endpoint.
 
 - **Header**: `index,hour,latency,uptime`
 - **Columns**:
-  - `index`: References the ID from the index section.
+  - `index`: References the ID in `data/index.csv`.
   - `hour`: Hour of the day (0-23).
   - `latency`: Average latency in milliseconds.
   - `uptime`: Average uptime percentage (0-100).

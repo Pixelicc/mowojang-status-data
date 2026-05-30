@@ -1,0 +1,29 @@
+index,key,name,group,enabled
+0,"minecraft-api_minecraft-api---get--texture-:hash","Minecraft API - GET /texture/:hash","Minecraft API",true
+1,"minecraft-api_mojang-api---get--minecraft-profile-lookup-name-:username","Mojang API - GET /minecraft/profile/lookup/name/:username","Minecraft API",true
+2,"minecraft-api_mojang-api---get--session-minecraft-profile-:uuid","Mojang API - GET /session/minecraft/profile/:UUID","Minecraft API",true
+3,"minecraft-api_mojang-api---get--session-minecraft-profile-:uuid---unsigned=false","Mojang API - GET /session/minecraft/profile/:UUID - unsigned=false","Minecraft API",true
+4,"minecraft-api_mojang-api---get--users-profiles-minecraft-:username","Mojang API - GET /users/profiles/minecraft/:username","Minecraft API",true
+5,"minecraft-api_mojang-api---post--minecraft-profile-lookup-bulk-byname---[username-username]","Mojang API - POST /minecraft/profile/lookup/bulk/byname - [username,username]","Minecraft API",true
+6,"minecraft-api_mojang-api---post--profiles-minecraft---[username-username]","Mojang API - POST /profiles/minecraft - [username,username]","Minecraft API",true
+7,"minecraft-api_services-api---get--minecraft-profile-lookup-:uuid","Services API - GET /minecraft/profile/lookup/:UUID","Minecraft API",true
+8,"minecraft-api_services-api---get--minecraft-profile-lookup-name-:username","Services API - GET /minecraft/profile/lookup/name/:username","Minecraft API",true
+9,"minecraft-api_services-api---post--minecraft-profile-lookup-bulk-byname---[username-username]","Services API - POST /minecraft/profile/lookup/bulk/byname - [username,username]","Minecraft API",true
+10,"mowojang-api_mowojang-api---get--:username","Mowojang API - GET /:username","Mowojang API",true
+11,"mowojang-api_mowojang-api---get--:uuid","Mowojang API - GET /:UUID","Mowojang API",true
+12,"mowojang-api_mowojang-api---get--session-minecraft-profile-:uuid","Mowojang API - GET /session/minecraft/profile/:UUID","Mowojang API",true
+13,"mowojang-api_mowojang-api---get--users-profiles-minecraft-:username","Mowojang API - GET /users/profiles/minecraft/:username","Mowojang API",true
+14,"mowojang-api_mowojang-api---post-----[username-uuid]","Mowojang API - POST / - [username,UUID]","Mowojang API",true
+15,"other-apis_ashcon-api---get--mojang-v2-user-:username","Ashcon API - GET /mojang/v2/user/:username","Other APIs",true
+16,"other-apis_ashcon-api---get--mojang-v2-user-:uuid","Ashcon API - GET /mojang/v2/user/:UUID","Other APIs",true
+17,"other-apis_crafthead-api---get--profile-:username","CraftHead API - GET /profile/:username","Other APIs",true
+18,"other-apis_crafthead-api---get--profile-:uuid","CraftHead API - GET /profile/:UUID","Other APIs",true
+19,"other-apis_playerdb-api---get--profile-:username","PlayerDB API - GET /profile/:username","Other APIs",true
+20,"other-apis_playerdb-api---get--profile-:uuid","PlayerDB API - GET /profile/:UUID","Other APIs",true
+21,"other-apis_skinrestorer-api---get--mojang-skin-:uuid","SkinRestorer API - GET /mojang/skin/:UUID","Other APIs",true
+22,"other-apis_skinrestorer-api---get--mojang-uuid-:username","SkinRestorer API - GET /mojang/uuid/:username","Other APIs",true
+23,"seraph-api_seraph-api---get--:username","Seraph API - GET /:username","Seraph API",true
+24,"seraph-api_seraph-api---get--:uuid","Seraph API - GET /:UUID","Seraph API",true
+25,"seraph-api_seraph-api---get--session-minecraft-profile-:uuid","Seraph API - GET /session/minecraft/profile/:UUID","Seraph API",true
+26,"seraph-api_seraph-api---get--users-profiles-minecraft-:username","Seraph API - GET /users/profiles/minecraft/:username","Seraph API",true
+27,"seraph-api_seraph-api---post-----[username-uuid]","Seraph API - POST / - [username,UUID]","Seraph API",true
