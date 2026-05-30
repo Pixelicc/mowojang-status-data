@@ -27,6 +27,6 @@ jobs:
         run: echo "date=$(date -d "yesterday" +'%Y-%m-%d')" >> $GITHUB_OUTPUT
       - uses: EndBug/add-and-commit@v10
         with:
-          add: "data/${{ steps.date.outputs.date }}.csv"
+          add: '["data/${{ steps.date.outputs.date }}.csv","data/index.csv"]'
           message: "Archive for ${{ steps.date.outputs.date }}"
           default_author: "github_actions"
