@@ -1,4 +1,4 @@
-The CSV files in this directory contain hourly endpoint metrics.
+The CSV files in the data directory contain hourly endpoint metrics.
 The endpoint key is referenced by index values stored in `data/index.csv`.
 
 ## Hourly Data
