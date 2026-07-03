@@ -128,6 +128,7 @@ const dataByKey = new Map<
   Map<number, { latency: number; uptime: number; count: number }>
 >();
 for (const { key, results } of endpoints) {
+  if (!results || !Array.isArray(results)) continue;
   let map = dataByKey.get(key);
   if (!map) {
     map = new Map();
