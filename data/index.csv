@@ -14,8 +14,8 @@ index,key,name,group,enabled
 12,"mowojang-api_mowojang-api---get--session-minecraft-profile-:uuid","Mowojang API - GET /session/minecraft/profile/:UUID","Mowojang API",true
 13,"mowojang-api_mowojang-api---get--users-profiles-minecraft-:username","Mowojang API - GET /users/profiles/minecraft/:username","Mowojang API",true
 14,"mowojang-api_mowojang-api---post-----[username-uuid]","Mowojang API - POST / - [username,UUID]","Mowojang API",true
-15,"other-apis_ashcon-api---get--mojang-v2-user-:username","Ashcon API - GET /mojang/v2/user/:username","Other APIs",true
-16,"other-apis_ashcon-api---get--mojang-v2-user-:uuid","Ashcon API - GET /mojang/v2/user/:UUID","Other APIs",true
+15,"other-apis_ashcon-api---get--mojang-v2-user-:username","Ashcon API - GET /mojang/v2/user/:username","Other APIs",false
+16,"other-apis_ashcon-api---get--mojang-v2-user-:uuid","Ashcon API - GET /mojang/v2/user/:UUID","Other APIs",false
 17,"other-apis_crafthead-api---get--profile-:username","CraftHead API - GET /profile/:username","Other APIs",true
 18,"other-apis_crafthead-api---get--profile-:uuid","CraftHead API - GET /profile/:UUID","Other APIs",true
 19,"other-apis_playerdb-api---get--profile-:username","PlayerDB API - GET /profile/:username","Other APIs",true
