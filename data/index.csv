@@ -22,8 +22,8 @@ index,key,name,group,enabled
 20,"other-apis_playerdb-api---get--profile-:uuid","PlayerDB API - GET /profile/:UUID","Other APIs",true
 21,"other-apis_skinrestorer-api---get--mojang-skin-:uuid","SkinRestorer API - GET /mojang/skin/:UUID","Other APIs",true
 22,"other-apis_skinrestorer-api---get--mojang-uuid-:username","SkinRestorer API - GET /mojang/uuid/:username","Other APIs",true
-23,"seraph-api_seraph-api---get--:username","Seraph API - GET /:username","Seraph API",true
-24,"seraph-api_seraph-api---get--:uuid","Seraph API - GET /:UUID","Seraph API",true
-25,"seraph-api_seraph-api---get--session-minecraft-profile-:uuid","Seraph API - GET /session/minecraft/profile/:UUID","Seraph API",true
-26,"seraph-api_seraph-api---get--users-profiles-minecraft-:username","Seraph API - GET /users/profiles/minecraft/:username","Seraph API",true
-27,"seraph-api_seraph-api---post-----[username-uuid]","Seraph API - POST / - [username,UUID]","Seraph API",true
+23,"seraph-api_seraph-api---get--:username","Seraph API - GET /:username","Seraph API",false
+24,"seraph-api_seraph-api---get--:uuid","Seraph API - GET /:UUID","Seraph API",false
+25,"seraph-api_seraph-api---get--session-minecraft-profile-:uuid","Seraph API - GET /session/minecraft/profile/:UUID","Seraph API",false
+26,"seraph-api_seraph-api---get--users-profiles-minecraft-:username","Seraph API - GET /users/profiles/minecraft/:username","Seraph API",false
+27,"seraph-api_seraph-api---post-----[username-uuid]","Seraph API - POST / - [username,UUID]","Seraph API",false
